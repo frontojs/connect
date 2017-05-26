@@ -3,7 +3,7 @@
   "keywords": [
     "api", "remote", "data-source", "fronto"
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Toolsets for retrieving data from a remote source",
   "main": "lib/index.js",
   "directories": {
