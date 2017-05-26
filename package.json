@@ -3,9 +3,12 @@
   "keywords": [
     "api", "remote", "data-source", "fronto"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Toolsets for retrieving data from a remote source",
-  "main": "/lib/index.js",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
   "repository": "https://github.com/frontojs/fronto-connect",
   "author": "Zack Siri",
   "license": "MIT",
