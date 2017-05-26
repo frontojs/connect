@@ -1,17 +1,22 @@
 {
   "name": "fronto-connect",
   "keywords": [
-    "api", "remote", "data-source", "fronto"
+    "api",
+    "remote",
+    "data-source",
+    "fronto"
   ],
   "version": "1.0.3",
   "description": "Toolsets for retrieving data from a remote source",
   "main": "lib/index.js",
-  "directories": {
-    "lib": "./lib"
-  },
   "repository": "https://github.com/frontojs/fronto-connect",
   "author": "Zack Siri",
   "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "webpack": "^2.6.1"
+  },
   "peerDependencies": {
     "mobx": "^3.1.9"
   }
