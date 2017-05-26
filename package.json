@@ -6,6 +6,9 @@
     "data-source",
     "fronto"
   ],
+  "scripts": {
+    "build": "webpack"
+  },
   "version": "1.0.4",
   "description": "Toolsets for retrieving data from a remote source",
   "main": "lib/index.js",
