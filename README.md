@@ -165,6 +165,7 @@ this.call({ parameters, type: 'get', query: true }, {
 - [x] Documentation on url generation
 - [ ] More documentation on `this.call`
 - [ ] Add Documentation on error handling
+- [ ] Documentation on pagination
 
 
 
