@@ -75,7 +75,10 @@ const endpoint = api({
 const posts = new Posts(endpoint);
 
 posts.findAll(); 
-// this will make a call to GET http://example.com/api/v1/posts and call the #index action of the posts_controller and populate the posts.collection with the data from the endpoint.
+// this will make a call to GET http://example.com/api/v1/posts and call 
+// the #index action of the posts_controller and populate the posts.collection 
+// with the data from the endpoint. Obviously it depends on how you implement
+// your endpoint.
 ```
 
 Once we make the call to the network we can use the `collection` to iterate and render out each post.
