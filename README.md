@@ -161,6 +161,7 @@ this.call({ parameters, type: 'get', query: true }, {
 ## TODO
 
 - [ ] Add some tests
+- [ ] Convert to TypeScript?
 - [x] Documentation on basic usage
 - [x] Documentation on url generation
 - [ ] More documentation on `this.call`
