@@ -46,9 +46,21 @@ class Connect {
     this.collection = existing.concat(array);
   }
 
+  @action modifyInCollection = object => {
+    let existing = this.collection;
+    
+    const indexOfObject = existing.map(
+      item => item.id
+    ).indexOf(object.id);
+
+    existing[indexOfObject] = object;
+
+    this.collection = existing;
+  }
+
   @action removeFromCollection = object => {
     const existing  = this.collection;
-    this.collection = existing.filter(item => item.id === object.id);
+    this.collection = existing.filter(item => item.id !== object.id);
   }
 
   @observable selected           = {};

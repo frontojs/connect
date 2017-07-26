@@ -9,7 +9,7 @@
   "scripts": {
     "build": "webpack"
   },
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Toolsets for retrieving data from a remote source",
   "main": "lib/index.js",
   "repository": "https://github.com/frontojs/fronto-connect",
