@@ -2,6 +2,8 @@
 
 Toolset for helping connecting to remote data sources like a restful api.
 
+[Intro Video Part 1](https://www.codemy.net/posts/react-intro-to-frontojs-part-1) | [Intro Video Part 2](https://www.codemy.net/posts/react-intro-to-frontojs-part-2)
+
 ## Basic Usage
 
 Create a store class and that `extends` from connect.
