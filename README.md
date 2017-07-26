@@ -3,7 +3,7 @@
 Toolset for helping connecting to remote data sources like a restful api.
 
 ### Videos
-[Intro Part 1 (11:06)](https://www.codemy.net/posts/react-intro-to-frontojs-part-1) | [Intro Part 2 (8:03)](https://www.codemy.net/posts/react-intro-to-frontojs-part-2)
+[Intro Part 1 (11:06)](https://www.codemy.net/posts/react-intro-to-frontojs-part-1) | [Intro Part 2 (8:03)](https://www.codemy.net/posts/react-intro-to-frontojs-part-2) | [Writing Custom Scopes](https://www.codemy.net/posts/react-writing-custom-fronto-connect-scopes)
 
 ## Basic Usage
 
