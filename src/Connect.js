@@ -8,8 +8,10 @@ class Connect {
     this.isLoading = status;
   }
 
-  constructor(api) {
+  constructor(api, namespace = null) {
     this.api = api;
+    if (namespace)
+      this.namespace = namespace;
   }
 
   route = (parameters, query = false) => finder(
