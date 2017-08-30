@@ -4,6 +4,15 @@ import { finder, network } from './utils';
 class Connect {
   @observable isLoading = false;
 
+  @observable currentPage = 0;
+  @observable totalPages = 1;
+
+  @action setTotalPages = pages =>
+    this.totalPages = pages;
+
+  @action setCurrentPage = (page) =>
+    this.currentPage = page;
+
   @action setIsLoading(status) { 
     this.isLoading = status;
   }
