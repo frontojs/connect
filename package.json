@@ -15,7 +15,9 @@
   "repository": "https://github.com/frontojs/fronto-connect",
   "author": "Zack Siri",
   "files": [
-    "lib/index.js", "package.json", "README.md"
+    "lib/index.js",
+    "package.json",
+    "README.md"
   ],
   "directories": {
     "lib": "./lib"
@@ -33,6 +35,9 @@
     "webpack": "^2.6.1"
   },
   "peerDependencies": {
-    "mobx": "^3.1.10"
+    "mobx": "^5.6.0"
+  },
+  "dependencies": {
+    "mobx": "^5.6.0"
   }
 }
